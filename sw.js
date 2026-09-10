@@ -1,4 +1,4 @@
-const CACHE_NAME = 'mibu-birthday-message-2026-v1';
+const CACHE_NAME = 'mibu-birthday-message-2026-v2';
 const APP_ASSETS = [
   './',
   './index.html',
