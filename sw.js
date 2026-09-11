@@ -1,9 +1,9 @@
-const CACHE_NAME = 'mibu-birthday-message-2026-offline-v4';
+const CACHE_NAME = 'mibu-birthday-message-2026-offline-v5';
 const APP_ASSETS = [
   './',
   './index.html',
   './manifest.webmanifest',
-  './cover.jpg',
+  './cover.webp',
   './icon-192.png',
   './icon-512.png',
   './apple-touch-icon.png',

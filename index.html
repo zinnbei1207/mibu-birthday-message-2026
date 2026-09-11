@@ -15,7 +15,7 @@
 </style>
 </head>
 <body>
-<section id="cover" class="page cover active"><div class="coverFrame"><img src="cover.jpg"></div><button class="open" onclick="showPage('intro',1)">MESSAGE BOOKをひらく</button></section>
+<section id="cover" class="page cover active"><div class="coverFrame"><img src="cover.webp" width="1024" height="1536" fetchpriority="high"></div><button class="open" onclick="showPage('intro',1)">MESSAGE BOOKをひらく</button></section>
 <section id="intro" class="page"><div class="sheet intro"><div class="eyebrow">FOR MIBU · 2026　☆ 🐈‍⬛</div><h1>ミブへ。</h1><div class="introText">みんなから届いた言葉を、<br>この一冊に集めました。<br><br>ページをめくるように、<br>ゆっくり読んでください。</div><div class="nav"><button onclick="showPage('cover',-1)">表紙へ</button><button onclick="showToc(1)">手紙を見る →</button></div></div></section>
 <section id="toc" class="page"><div class="sheet toc"><div class="eyebrow">LETTERS FOR MIBU　☆</div><h1>届いた手紙 🐈‍⬛</h1><div id="tocList" class="tocList"></div><div class="nav"><button onclick="showPage('intro',-1)">← はじめに</button><button onclick="openLetter(0,1)">最初から読む →</button></div></div></section>
 <section id="letterPage" class="page"><div id="letterSheet" class="sheet letter"><div class="eyebrow" id="letterNo"></div><div class="sender"><div class="senderLabel">FROM</div><div class="senderName" id="sender"></div></div><div class="favorite" id="favorite"><span class="sectionLabel">ミブの好きなところ</span><span id="favoriteText"></span></div><div class="messageWrap" id="messageWrap"><span class="sectionLabel">メッセージ</span><div class="message" id="message"></div></div><div class="nav"><button onclick="showToc(-1)">☰ 目次</button><button onclick="nextLetter()">次の手紙 →</button></div><div class="count" id="count"></div></div></section>
